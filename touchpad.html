@@ -17,13 +17,16 @@
 <body>
 <main>
 <h1>Phone Touchpad</h1>
-<div class="date">มีผลตั้งแต่ 14 พฤศจิกายน 2026 · Effective 14 November 2026</div>
+<div class="date">มีผลตั้งแต่ 14 พฤศจิกายน 2026 (ปรับปรุงเรื่องการซื้อในแอป) · Effective 14 November 2026 (updated for in-app purchase)</div>
 
 <h2>นโยบายความเป็นส่วนตัว</h2>
 <p>Phone Touchpad เป็นแอปที่ทำให้มือถือ Android ทำงานเป็นทัชแพดและคีย์บอร์ดไร้สายของคอมพิวเตอร์ผ่าน Bluetooth</p>
 
 <h3>ข้อมูลที่แอปเก็บ</h3>
-<p><b>แอปไม่เก็บ ไม่ส่ง และไม่แบ่งปันข้อมูลส่วนบุคคลใดๆ</b> แอปไม่มีสิทธิ์เข้าถึงอินเทอร์เน็ต ไม่มีโฆษณา ไม่มีระบบวิเคราะห์การใช้งาน และไม่มีบัญชีผู้ใช้</p>
+<p><b>ตัวแอปไม่เก็บ ไม่ส่ง และไม่แบ่งปันข้อมูลส่วนบุคคลของคุณ</b> แอปไม่มีโฆษณา ไม่มีระบบวิเคราะห์การใช้งานของเราเอง และไม่มีบัญชีผู้ใช้ การเชื่อมต่ออินเทอร์เน็ตมีไว้สำหรับระบบซื้อของ Google Play เท่านั้น</p>
+
+<h3>การทดลองใช้และการซื้อปลดล็อก</h3>
+<p>แอปให้ทดลองใช้ฟรี 7 วัน โดยจำวันที่เปิดแอปครั้งแรกไว้ในมือถือของคุณ หลังจากนั้นซื้อปลดล็อกครั้งเดียวได้ผ่าน Google Play การชำระเงินทั้งหมดดำเนินการโดย Google เราไม่เห็นและไม่เก็บข้อมูลบัตรหรือการชำระเงินของคุณ แอปถาม Google Play เพียงว่าบัญชีนี้ซื้อปลดล็อกแล้วหรือไม่ ระบบซื้อของ Google Play (Play Billing Library) อาจเก็บข้อมูลการทำงานของตัวเองตาม<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a></p>
 
 <h3>การเคลื่อนไหวของนิ้วและปุ่มที่กด</h3>
 <p>การเลื่อนตัวชี้ การคลิก และปุ่มที่คุณกด ถูกส่งผ่าน Bluetooth ไปยังคอมพิวเตอร์ที่คุณเลือกจับคู่ไว้เท่านั้น แอปไม่บันทึกสิ่งเหล่านี้ไว้ และไม่ส่งไปที่อื่น</p>
@@ -32,11 +35,12 @@
 <p>เมื่อคุณพิมพ์ลงช่องข้อความในแอปด้วยคีย์บอร์ดของมือถือ แอปแปลงข้อความเป็นการกดปุ่มแล้วส่งไปยังคอมพิวเตอร์ที่จับคู่ไว้เท่านั้น แอปไม่บันทึกข้อความไว้ ช่องข้อความถูกล้างเมื่อคุณกด Enter หรือซ่อนแป้นพิมพ์ แอปไม่ใช้ไมโครโฟน ถ้าคุณใช้ปุ่มไมค์ของคีย์บอร์ดมือถือ เสียงจะถูกจัดการโดยแอปคีย์บอร์ดนั้นตามนโยบายของผู้ให้บริการคีย์บอร์ด</p>
 
 <h3>ข้อมูลที่เก็บในเครื่อง</h3>
-<p>แอปจำที่อยู่ Bluetooth ของคอมพิวเตอร์เครื่องล่าสุดที่เชื่อมต่อ และการตั้งค่าของแอป (เช่น ความเร็วตัวชี้) ข้อมูลนี้อยู่ในมือถือของคุณเท่านั้น และถูกลบเมื่อถอนการติดตั้งแอปหรือล้างข้อมูลแอป</p>
+<p>แอปจำที่อยู่ Bluetooth ของคอมพิวเตอร์เครื่องล่าสุดที่เชื่อมต่อ การตั้งค่าของแอป (เช่น ความเร็วตัวชี้) วันที่เริ่มทดลองใช้ และสถานะการปลดล็อก ข้อมูลนี้อยู่ในมือถือของคุณเท่านั้น และถูกลบเมื่อถอนการติดตั้งแอปหรือล้างข้อมูลแอป</p>
 
 <h3>สิทธิ์ที่แอปขอ</h3>
 <p><code>BLUETOOTH_CONNECT</code> — เชื่อมต่อกับคอมพิวเตอร์ที่จับคู่ไว้และส่งการเคลื่อนไหวกับปุ่มกด<br>
 <code>BLUETOOTH_ADVERTISE</code> — เปิดให้คอมพิวเตอร์ค้นหามือถือเจอตอนจับคู่ครั้งแรก<br>
+<code>INTERNET</code>, <code>com.android.vending.BILLING</code> — ระบบซื้อปลดล็อกของ Google Play<br>
 แอปไม่ใช้ Bluetooth เพื่อหาตำแหน่งของคุณ</p>
 
 <h3>ติดต่อ</h3>
@@ -46,7 +50,10 @@
 <p>Phone Touchpad turns an Android phone into a wireless touchpad and keyboard for a computer over Bluetooth.</p>
 
 <h3>Data collection</h3>
-<p><b>The app does not collect, transmit, or share any personal data.</b> It has no internet permission, no ads, no analytics, and no user accounts.</p>
+<p><b>The app itself does not collect, transmit, or share your personal data.</b> It has no ads, no analytics of our own, and no user accounts. Its internet access exists only for the Google Play purchase system.</p>
+
+<h3>Free trial and unlock purchase</h3>
+<p>The app can be tried free for 7 days; the date of first use is stored on your phone. After that a one-time unlock can be bought through Google Play. Payment is handled entirely by Google; we never see or store your card or payment details. The app only asks Google Play whether this account has bought the unlock. Google's purchase system (Play Billing Library) may collect data about its own operation under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
 <h3>Finger movement and keystrokes</h3>
 <p>Pointer movement, clicks and keys you press are sent over Bluetooth only to the computer you have paired. They are never logged or sent anywhere else.</p>
@@ -55,11 +62,12 @@
 <p>When you type into the app's text box with your phone's keyboard, the app turns the text into key presses and sends them to your paired computer only. The text is not stored; the box is cleared when you press Enter or hide the keyboard. The app does not use the microphone. If you use your keyboard app's own microphone key, audio is handled by that keyboard app under its provider's policy.</p>
 
 <h3>Data stored on your device</h3>
-<p>The app remembers the Bluetooth address of the last connected computer and its own settings (such as pointer speed). This stays on your phone only and is removed when you uninstall the app or clear its data.</p>
+<p>The app remembers the Bluetooth address of the last connected computer, its own settings (such as pointer speed), the trial start date and whether it is unlocked. This stays on your phone only and is removed when you uninstall the app or clear its data.</p>
 
 <h3>Permissions</h3>
 <p><code>BLUETOOTH_CONNECT</code> — connect to your paired computer and send movement and key presses.<br>
 <code>BLUETOOTH_ADVERTISE</code> — make the phone discoverable while pairing for the first time.<br>
+<code>INTERNET</code>, <code>com.android.vending.BILLING</code> — Google Play purchase of the unlock.<br>
 Bluetooth is never used to derive your location.</p>
 
 <h3>Contact</h3>
