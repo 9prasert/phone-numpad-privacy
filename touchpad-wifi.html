@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phone Touchpad – โหมด Wi-Fi / Wi-Fi mode</title>
+<title>Phone Touchpad – โปรแกรมช่วยบนคอมพิวเตอร์ / PC helper</title>
 <style>
   body { margin: 0; background: #F4F6F8; color: #202124; font-family: "Segoe UI", "Leelawadee UI", sans-serif; line-height: 1.7; }
   main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
@@ -21,62 +21,62 @@
 </head>
 <body>
 <main>
-<h1>Phone Touchpad · โหมด Wi-Fi</h1>
+<h1>Phone Touchpad · โปรแกรมช่วยบนคอมพิวเตอร์</h1>
 <div class="sub">โปรแกรมช่วยสำหรับ Windows 10 / 11 · Helper for Windows 10 / 11</div>
 
-<h2>โหมด Wi-Fi คืออะไร</h2>
-<p>ปกติแอป Phone Touchpad ส่งการขยับไปยังคอมพิวเตอร์ผ่าน Bluetooth ซึ่งกับมือถือและคอมพิวเตอร์บางคู่ ตัวชี้จะกระตุก โหมด Wi-Fi ส่งผ่าน Wi-Fi แทน ตัวชี้จึงลื่นกว่ามาก โดยต้องเปิดโปรแกรมช่วยตัวเล็กบนคอมพิวเตอร์ไว้ด้วย</p>
+<h2>โปรแกรมช่วยคืออะไร</h2>
+<p>แอป Phone Touchpad ส่งการขยับและการพิมพ์ไปยังคอมพิวเตอร์ผ่าน Wi-Fi ในเครือข่ายของคุณ โดยมีโปรแกรมช่วยตัวเล็กนี้เปิดไว้บนคอมพิวเตอร์คอยรับแล้วสั่งเมาส์และคีย์บอร์ดของ Windows ตั้งแต่รุ่น 1.23 แอปไม่ใช้ Bluetooth แล้ว จึงต้องมีโปรแกรมช่วยนี้</p>
 <p><a class="dl" href="PhoneTouchpad-WiFi-Helper.zip">ดาวน์โหลดโปรแกรมช่วย (.zip)</a><br>
-<span class="sub">ฟรี ไม่ต้องติดตั้ง ไม่ต้องใช้สิทธิ์ผู้ดูแลระบบ · ต้องใช้แอป Phone Touchpad รุ่น 1.21 ขึ้นไป</span></p>
+<span class="sub">ฟรี ไม่ต้องติดตั้ง ไม่ต้องใช้สิทธิ์ผู้ดูแลระบบ · ใช้กับแอป Phone Touchpad รุ่น 1.21 ขึ้นไป · รุ่นใน Microsoft Store อยู่ระหว่างการตรวจ</span></p>
 
 <h3>วิธีใช้</h3>
 <ol>
   <li>ดาวน์โหลดไฟล์ด้านบนลงคอมพิวเตอร์ คลิกขวาที่ไฟล์ เลือก "แยกไฟล์ทั้งหมด" (Extract All)</li>
   <li>ดับเบิลคลิก <code>Start-Touchpad-WiFi.bat</code> จะมีหน้าต่างแสดง<b>รหัสจับคู่ 8 ตัว</b> เปิดหน้าต่างนี้ทิ้งไว้ขณะใช้งาน (ย่อเก็บได้)</li>
   <li>ให้มือถือกับคอมพิวเตอร์อยู่ Wi-Fi เดียวกัน หรือให้คอมพิวเตอร์ต่อ Hotspot ของมือถือ</li>
-  <li>ในแอป แตะ เมนู → "เชื่อมผ่าน Wi-Fi" → เปิดใช้ แล้วใส่รหัสจับคู่เมื่อแอปถาม (ครั้งแรกครั้งเดียว)</li>
+  <li>เปิดแอปบนมือถือ แอปจะหาคอมพิวเตอร์เองและถามรหัสจับคู่ (ครั้งแรกครั้งเดียว)</li>
 </ol>
-<p>ถ้า Wi-Fi หลุดหรือปิดโปรแกรมช่วย แอปจะกลับไปใช้ Bluetooth เองถ้าเชื่อมต่อ Bluetooth ไว้</p>
+<p>หลังจากนั้นเปิดโปรแกรมช่วยไว้ เปิดแอปเมื่อไรก็เชื่อมต่อเอง</p>
 
 <div class="note">
 <b>ถ้า Windows ขึ้นคำเตือนตอนเปิดไฟล์</b><br>
-ไฟล์ที่ดาวน์โหลดจากอินเทอร์เน็ตอาจมีคำเตือนความปลอดภัยก่อนเปิด โปรแกรมช่วยเป็นสคริปต์ที่อ่านเนื้อหาได้ทั้งหมด (เปิด <code>PhoneTouchpad-WiFi.ps1</code> ด้วย Notepad เพื่อตรวจได้) ถ้าคุณไม่แน่ใจ ไม่ต้องเปิด แอปยังใช้ผ่าน Bluetooth ได้ตามเดิม
+ไฟล์ที่ดาวน์โหลดจากอินเทอร์เน็ตอาจมีคำเตือนความปลอดภัยก่อนเปิด โปรแกรมช่วยเป็นสคริปต์ที่อ่านเนื้อหาได้ทั้งหมด (เปิด <code>PhoneTouchpad-WiFi.ps1</code> ด้วย Notepad เพื่อตรวจได้) ถ้าคุณไม่แน่ใจ ไม่ต้องเปิด<br>บนคอมพิวเตอร์ที่เปิด Smart App Control ไว้ Windows จะไม่ยอมให้เปิดไฟล์นี้เลย ให้ใช้รุ่นใน Microsoft Store แทนเมื่อผ่านการตรวจแล้ว
 </div>
 
 <h3>ความปลอดภัย</h3>
 <p>ข้อมูลที่ส่งคือการขยับตัวชี้และปุ่มที่กด ทุกแพ็กเก็ตเข้ารหัส (AES-256) และตรวจตัวตนด้วยรหัสจับคู่ เครื่องอื่นใน Wi-Fi เดียวกันอ่านหรือสั่งคอมพิวเตอร์ของคุณไม่ได้ถ้าไม่รู้รหัส ข้อมูลส่งตรงระหว่างมือถือกับคอมพิวเตอร์ของคุณภายในเครือข่ายเดียวกันเท่านั้น ไม่ผ่านอินเทอร์เน็ตหรือเซิร์ฟเวอร์ใด รหัสจับคู่บนคอมพิวเตอร์เก็บแบบเข้ารหัสผูกกับบัญชี Windows ของคุณ ปุ่ม "สร้างรหัสใหม่" ยกเลิกมือถือที่เคยจับคู่ทั้งหมด</p>
 
 <h3>ข้อจำกัด</h3>
-<p>ทาง Wi-Fi สั่งหน้าต่างที่เปิดด้วยสิทธิ์ผู้ดูแลระบบ หน้าถามสิทธิ์ (UAC) และหน้าล็อกจอไม่ได้ ถ้าต้องใช้หน้าเหล่านั้น ให้ปิดโหมด Wi-Fi ในเมนูของแอปเพื่อใช้ Bluetooth<br>
+<p>ทาง Wi-Fi สั่งหน้าต่างที่เปิดด้วยสิทธิ์ผู้ดูแลระบบ หน้าถามสิทธิ์ (UAC) และหน้าล็อกจอไม่ได้ ต้องใช้เมาส์หรือทัชแพดของคอมพิวเตอร์เองในหน้าเหล่านั้น<br>
 ถ้าแอปหาคอมพิวเตอร์ไม่เจอ: ตรวจว่าอยู่เครือข่ายเดียวกัน (ไม่ใช่ Wi-Fi สำหรับแขก) หรือใส่ IP ของมือถือในช่องล่างของหน้าต่างโปรแกรมช่วย</p>
 
 <h3>เลิกใช้</h3>
 <p>ปิดหน้าต่างโปรแกรมช่วยแล้วลบโฟลเดอร์ที่แยกไฟล์ไว้ การตั้งค่าของโปรแกรมช่วยอยู่ที่ <code>%APPDATA%\PhoneTouchpad</code> ลบได้เช่นกัน</p>
 
-<h2>Wi-Fi mode</h2>
-<p>Phone Touchpad normally sends movement to the computer over Bluetooth, which makes the pointer stutter on some phone and computer pairs. Wi-Fi mode sends it over Wi-Fi instead for a much smoother pointer. It needs a small helper running on the computer.</p>
+<h2>PC helper</h2>
+<p>The Phone Touchpad app sends your touch and typing to the computer over Wi-Fi on your own network. This small helper runs on the computer, receives them and drives the Windows mouse and keyboard. From version 1.23 the app no longer uses Bluetooth, so the helper is required.</p>
 <p><a class="dl" href="PhoneTouchpad-WiFi-Helper.zip">Download the helper (.zip)</a><br>
-<span class="sub">Free, no installation, no administrator rights · Requires Phone Touchpad 1.21 or newer</span></p>
+<span class="sub">Free, no installation, no administrator rights · Works with Phone Touchpad 1.21 or newer · A Microsoft Store version is in review</span></p>
 
 <h3>How to use</h3>
 <ol>
   <li>Download the file above to your computer, right-click it and choose "Extract All".</li>
   <li>Double-click <code>Start-Touchpad-WiFi.bat</code>. A window shows an <b>8-character pairing code</b>. Keep this window open while you use the app (you can minimise it).</li>
   <li>Put the phone and the computer on the same Wi-Fi network, or connect the computer to the phone's hotspot.</li>
-  <li>In the app, tap Menu → Wi-Fi mode → turn on, then enter the pairing code when asked (first time only).</li>
+  <li>Open the app on your phone. It finds the computer by itself and asks for the pairing code (first time only).</li>
 </ol>
-<p>If Wi-Fi drops or the helper is closed, the app falls back to Bluetooth when Bluetooth is connected.</p>
+<p>After that, keep the helper running and the app connects whenever you open it.</p>
 
 <div class="note">
 <b>If Windows shows a warning when opening the file</b><br>
-Files downloaded from the internet may show a security warning before they open. The helper is a plain script you can read in full (open <code>PhoneTouchpad-WiFi.ps1</code> in Notepad). If you are unsure, do not run it; the app still works over Bluetooth.
+Files downloaded from the internet may show a security warning before they open. The helper is a plain script you can read in full (open <code>PhoneTouchpad-WiFi.ps1</code> in Notepad). If you are unsure, do not run it.<br>On computers with Smart App Control turned on, Windows will not open this file at all; use the Microsoft Store version once it has passed review.
 </div>
 
 <h3>Security</h3>
 <p>What is sent is pointer movement and the keys you press. Every packet is encrypted (AES-256) and authenticated with the pairing code, so other devices on the same Wi-Fi cannot read it or control your computer without the code. Data goes directly between your phone and your computer inside the same network only, never through the internet or any server. The pairing code on the computer is stored encrypted and tied to your Windows account. "New code" revokes every phone paired before.</p>
 
 <h3>Limitations</h3>
-<p>Over Wi-Fi the app cannot control windows running as administrator, the permission (UAC) prompt, or the lock screen. For those, turn Wi-Fi mode off in the app's menu and use Bluetooth.<br>
+<p>Over Wi-Fi the app cannot control windows running as administrator, the permission (UAC) prompt, or the lock screen. Use the computer's own mouse or touchpad on those screens.<br>
 If the app cannot find the computer: check both are on the same network (not a guest Wi-Fi), or type the phone's IP address into the box at the bottom of the helper window.</p>
 
 <h3>Removing it</h3>
