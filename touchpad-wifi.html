@@ -26,21 +26,21 @@
 
 <h2>โปรแกรมช่วยคืออะไร</h2>
 <p>แอป Phone Touchpad ส่งการขยับและการพิมพ์ไปยังคอมพิวเตอร์ผ่าน Wi-Fi ในเครือข่ายของคุณ โดยมีโปรแกรมช่วยตัวเล็กนี้เปิดไว้บนคอมพิวเตอร์คอยรับแล้วสั่งเมาส์และคีย์บอร์ดของ Windows ตั้งแต่รุ่น 1.23 แอปไม่ใช้ Bluetooth แล้ว จึงต้องมีโปรแกรมช่วยนี้</p>
-<p><a class="dl" href="PhoneTouchpad-WiFi-Helper.zip">ดาวน์โหลดโปรแกรมช่วย (.zip)</a><br>
-<span class="sub">ฟรี ไม่ต้องติดตั้ง ไม่ต้องใช้สิทธิ์ผู้ดูแลระบบ · ใช้กับแอป Phone Touchpad รุ่น 1.21 ขึ้นไป · รุ่นใน Microsoft Store อยู่ระหว่างการตรวจ</span></p>
+<p><a class="dl" href="https://apps.microsoft.com/detail/9PJBCZGRPTKF">รับจาก Microsoft Store</a><br>
+<span class="sub">ฟรี ไม่ต้องใช้สิทธิ์ผู้ดูแลระบบ · ใช้กับแอป Phone Touchpad รุ่น 1.21 ขึ้นไป · แนะนำทางนี้ ติดตั้งได้แม้เปิด Smart App Control และอัปเดตเอง</span></p>
 
 <h3>วิธีใช้</h3>
 <ol>
-  <li>ดาวน์โหลดไฟล์ด้านบนลงคอมพิวเตอร์ คลิกขวาที่ไฟล์ เลือก "แยกไฟล์ทั้งหมด" (Extract All)</li>
-  <li>ดับเบิลคลิก <code>Start-Touchpad-WiFi.bat</code> จะมีหน้าต่างแสดง<b>รหัสจับคู่ 8 ตัว</b> เปิดหน้าต่างนี้ทิ้งไว้ขณะใช้งาน (ย่อเก็บได้)</li>
+  <li>เปิดลิงก์ด้านบนบนคอมพิวเตอร์ กด "รับ" (Get) หรือ "ติดตั้ง" ใน Microsoft Store</li>
+  <li>เปิด <b>Phone Touchpad Wi-Fi Helper</b> จากเมนู Start จะมีหน้าต่างแสดง<b>รหัสจับคู่ 8 ตัว</b> เปิดหน้าต่างนี้ทิ้งไว้ขณะใช้งาน (ย่อเก็บได้)</li>
   <li>ให้มือถือกับคอมพิวเตอร์อยู่ Wi-Fi เดียวกัน หรือให้คอมพิวเตอร์ต่อ Hotspot ของมือถือ</li>
   <li>เปิดแอปบนมือถือ แอปจะหาคอมพิวเตอร์เองและถามรหัสจับคู่ (ครั้งแรกครั้งเดียว)</li>
 </ol>
 <p>หลังจากนั้นเปิดโปรแกรมช่วยไว้ เปิดแอปเมื่อไรก็เชื่อมต่อเอง</p>
 
 <div class="note">
-<b>ถ้า Windows ขึ้นคำเตือนตอนเปิดไฟล์</b><br>
-ไฟล์ที่ดาวน์โหลดจากอินเทอร์เน็ตอาจมีคำเตือนความปลอดภัยก่อนเปิด โปรแกรมช่วยเป็นสคริปต์ที่อ่านเนื้อหาได้ทั้งหมด (เปิด <code>PhoneTouchpad-WiFi.ps1</code> ด้วย Notepad เพื่อตรวจได้) ถ้าคุณไม่แน่ใจ ไม่ต้องเปิด<br>บนคอมพิวเตอร์ที่เปิด Smart App Control ไว้ Windows จะไม่ยอมให้เปิดไฟล์นี้เลย ให้ใช้รุ่นใน Microsoft Store แทนเมื่อผ่านการตรวจแล้ว
+<b>ทางสำรอง: ใช้แบบสคริปต์ไม่ต้องติดตั้ง</b><br>
+ถ้าเปิด Microsoft Store ไม่ได้ <a href="PhoneTouchpad-WiFi-Helper.zip">ดาวน์โหลด .zip</a> คลิกขวาเลือก "แยกไฟล์ทั้งหมด" แล้วดับเบิลคลิก <code>Start-Touchpad-WiFi.bat</code> ไฟล์ที่ดาวน์โหลดอาจมีคำเตือนความปลอดภัยก่อนเปิด สคริปต์อ่านเนื้อหาได้ทั้งหมด (เปิด <code>PhoneTouchpad-WiFi.ps1</code> ด้วย Notepad) ถ้าไม่แน่ใจ ไม่ต้องเปิด บนคอมพิวเตอร์ที่เปิด Smart App Control ไว้ Windows จะไม่ยอมให้เปิดไฟล์นี้ ให้ใช้รุ่นใน Microsoft Store
 </div>
 
 <h3>ความปลอดภัย</h3>
@@ -51,25 +51,25 @@
 ถ้าแอปหาคอมพิวเตอร์ไม่เจอ: ตรวจว่าอยู่เครือข่ายเดียวกัน (ไม่ใช่ Wi-Fi สำหรับแขก) หรือใส่ IP ของมือถือในช่องล่างของหน้าต่างโปรแกรมช่วย</p>
 
 <h3>เลิกใช้</h3>
-<p>ปิดหน้าต่างโปรแกรมช่วยแล้วลบโฟลเดอร์ที่แยกไฟล์ไว้ การตั้งค่าของโปรแกรมช่วยอยู่ที่ <code>%APPDATA%\PhoneTouchpad</code> ลบได้เช่นกัน</p>
+<p>รุ่น Microsoft Store: ถอนการติดตั้งจาก การตั้งค่า &gt; แอป · แบบสคริปต์: ปิดหน้าต่างโปรแกรมช่วยแล้วลบโฟลเดอร์ที่แยกไฟล์ไว้ การตั้งค่าของโปรแกรมช่วยอยู่ที่ <code>%APPDATA%\PhoneTouchpad</code> ลบได้เช่นกัน</p>
 
 <h2>PC helper</h2>
 <p>The Phone Touchpad app sends your touch and typing to the computer over Wi-Fi on your own network. This small helper runs on the computer, receives them and drives the Windows mouse and keyboard. From version 1.23 the app no longer uses Bluetooth, so the helper is required.</p>
-<p><a class="dl" href="PhoneTouchpad-WiFi-Helper.zip">Download the helper (.zip)</a><br>
-<span class="sub">Free, no installation, no administrator rights · Works with Phone Touchpad 1.21 or newer · A Microsoft Store version is in review</span></p>
+<p><a class="dl" href="https://apps.microsoft.com/detail/9PJBCZGRPTKF">Get it from Microsoft Store</a><br>
+<span class="sub">Free, no administrator rights · Works with Phone Touchpad 1.21 or newer · Recommended: installs even with Smart App Control on, and updates itself</span></p>
 
 <h3>How to use</h3>
 <ol>
-  <li>Download the file above to your computer, right-click it and choose "Extract All".</li>
-  <li>Double-click <code>Start-Touchpad-WiFi.bat</code>. A window shows an <b>8-character pairing code</b>. Keep this window open while you use the app (you can minimise it).</li>
+  <li>Open the link above on your computer and choose "Get" or "Install" in Microsoft Store.</li>
+  <li>Open <b>Phone Touchpad Wi-Fi Helper</b> from the Start menu. A window shows an <b>8-character pairing code</b>. Keep this window open while you use the app (you can minimise it).</li>
   <li>Put the phone and the computer on the same Wi-Fi network, or connect the computer to the phone's hotspot.</li>
   <li>Open the app on your phone. It finds the computer by itself and asks for the pairing code (first time only).</li>
 </ol>
 <p>After that, keep the helper running and the app connects whenever you open it.</p>
 
 <div class="note">
-<b>If Windows shows a warning when opening the file</b><br>
-Files downloaded from the internet may show a security warning before they open. The helper is a plain script you can read in full (open <code>PhoneTouchpad-WiFi.ps1</code> in Notepad). If you are unsure, do not run it.<br>On computers with Smart App Control turned on, Windows will not open this file at all; use the Microsoft Store version once it has passed review.
+<b>Alternative: the no-install script</b><br>
+If you cannot use Microsoft Store, <a href="PhoneTouchpad-WiFi-Helper.zip">download the .zip</a>, right-click it, choose "Extract All", then double-click <code>Start-Touchpad-WiFi.bat</code>. Downloaded files may show a security warning first. The script can be read in full (open <code>PhoneTouchpad-WiFi.ps1</code> in Notepad); if you are unsure, do not run it. On computers with Smart App Control turned on, Windows will not open it; use the Microsoft Store version.
 </div>
 
 <h3>Security</h3>
@@ -80,7 +80,7 @@ Files downloaded from the internet may show a security warning before they open.
 If the app cannot find the computer: check both are on the same network (not a guest Wi-Fi), or type the phone's IP address into the box at the bottom of the helper window.</p>
 
 <h3>Removing it</h3>
-<p>Close the helper window and delete the extracted folder. The helper's settings are in <code>%APPDATA%\PhoneTouchpad</code> and can be deleted too.</p>
+<p>Store version: uninstall it from Settings &gt; Apps. Script version: close the helper window and delete the extracted folder. The helper's settings are in <code>%APPDATA%\PhoneTouchpad</code> and can be deleted too.</p>
 
 <p class="sub"><a href="touchpad.html">นโยบายความเป็นส่วนตัว / Privacy Policy</a> · <a href="touchpad-terms.html">ข้อกำหนดในการให้บริการ / Terms of Service</a></p>
 </main>
