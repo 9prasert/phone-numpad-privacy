@@ -17,7 +17,7 @@
 <body>
 <main>
 <h1>Phone Touchpad</h1>
-<div class="date">มีผลตั้งแต่ 18 พฤศจิกายน 2026 (รุ่น 1.23: เชื่อมผ่าน Wi-Fi อย่างเดียว ไม่ใช้ Bluetooth แล้ว) · Effective 18 November 2026 (version 1.23: Wi-Fi only, Bluetooth removed)</div>
+<div class="date">มีผลตั้งแต่ 20 พฤศจิกายน 2026 (รุ่น 1.24: จับคู่กับคอมพิวเตอร์ด้วยการกดอนุญาต) · Effective 20 November 2026 (version 1.24: pairing by approval on the computer)</div>
 
 <h2>นโยบายความเป็นส่วนตัว</h2>
 <p>Phone Touchpad เป็นแอปที่ทำให้มือถือ Android ทำงานเป็นทัชแพดและคีย์บอร์ดไร้สายของคอมพิวเตอร์ ผ่าน Wi-Fi ภายในเครือข่ายของคุณเอง โดยมีโปรแกรมช่วยเปิดไว้บนคอมพิวเตอร์</p>
@@ -29,13 +29,13 @@
 <p>แอปให้ทดลองใช้ฟรี 7 วัน โดยจำวันที่เปิดแอปครั้งแรกไว้ในมือถือของคุณ หลังจากนั้นซื้อปลดล็อกครั้งเดียวได้ผ่าน Google Play การชำระเงินทั้งหมดดำเนินการโดย Google เราไม่เห็นและไม่เก็บข้อมูลบัตรหรือการชำระเงินของคุณ แอปถาม Google Play เพียงว่าบัญชีนี้ซื้อปลดล็อกแล้วหรือไม่ ระบบซื้อของ Google Play (Play Billing Library) อาจเก็บข้อมูลการทำงานของตัวเองตาม<a href="https://policies.google.com/privacy">นโยบายความเป็นส่วนตัวของ Google</a></p>
 
 <h3>การเคลื่อนไหวของนิ้วและปุ่มที่กด</h3>
-<p>การเลื่อนตัวชี้ การคลิก และปุ่มที่คุณกด ถูกส่งผ่าน Wi-Fi ตรงไปยัง<a href="touchpad-wifi.html">โปรแกรมช่วย</a>ที่คุณเปิดไว้บนคอมพิวเตอร์ของคุณเอง ภายในเครือข่ายเดียวกันเท่านั้น ไม่ผ่านอินเทอร์เน็ตและไม่ผ่านเซิร์ฟเวอร์ของเราหรือของใคร ข้อมูลทุกแพ็กเก็ตเข้ารหัส (AES-256) และตรวจตัวตนด้วยรหัสจับคู่ที่คุณใส่เอง ทั้งแอปและโปรแกรมช่วยไม่บันทึกสิ่งที่ส่ง แอปรับประกาศตัวของโปรแกรมช่วยจากเครือข่ายเดียวกัน (ชื่อคอมพิวเตอร์และรหัสประจำโปรแกรมช่วย) เพื่อค้นหาคอมพิวเตอร์ของคุณ</p>
+<p>การเลื่อนตัวชี้ การคลิก และปุ่มที่คุณกด ถูกส่งผ่าน Wi-Fi ตรงไปยัง<a href="touchpad-wifi.html">โปรแกรมช่วย</a>ที่คุณเปิดไว้บนคอมพิวเตอร์ของคุณเอง ภายในเครือข่ายเดียวกันเท่านั้น ไม่ผ่านอินเทอร์เน็ตและไม่ผ่านเซิร์ฟเวอร์ของเราหรือของใคร ข้อมูลทุกแพ็กเก็ตเข้ารหัส (AES-256) และตรวจตัวตนด้วยกุญแจที่สร้างตอนจับคู่ (คุณกดอนุญาตบนคอมพิวเตอร์เอง หรือใส่รหัสจับคู่เองเมื่อใช้โปรแกรมช่วยรุ่นเก่า) ทั้งแอปและโปรแกรมช่วยไม่บันทึกสิ่งที่ส่ง แอปรับประกาศตัวของโปรแกรมช่วยจากเครือข่ายเดียวกัน (ชื่อคอมพิวเตอร์และรหัสประจำโปรแกรมช่วย) เพื่อค้นหาคอมพิวเตอร์ของคุณ ตอนจับคู่ แอปส่งชื่อรุ่นของมือถือ (เช่น Pixel 8) ไปยังโปรแกรมช่วย เพื่อให้คอมพิวเตอร์แสดงว่ามือถือเครื่องไหนขอเชื่อมต่อ โปรแกรมช่วยเก็บชื่อรุ่นนี้ไว้บนคอมพิวเตอร์ของคุณคู่กับกุญแจ</p>
 
 <h3>ข้อความที่พิมพ์ด้วยคีย์บอร์ดของมือถือ</h3>
 <p>เมื่อคุณพิมพ์ลงช่องข้อความในแอปด้วยคีย์บอร์ดของมือถือ แอปแปลงข้อความเป็นการกดปุ่มแล้วส่งไปยังคอมพิวเตอร์ที่จับคู่ไว้เท่านั้น แอปไม่บันทึกข้อความไว้ ช่องข้อความถูกล้างเมื่อคุณกด Enter หรือซ่อนแป้นพิมพ์ แอปไม่ใช้ไมโครโฟน ถ้าคุณใช้ปุ่มไมค์ของคีย์บอร์ดมือถือ เสียงจะถูกจัดการโดยแอปคีย์บอร์ดนั้นตามนโยบายของผู้ให้บริการคีย์บอร์ด</p>
 
 <h3>ข้อมูลที่เก็บในเครื่อง</h3>
-<p>แอปจำการตั้งค่าของแอป (เช่น ความเร็วตัวชี้) วันที่เริ่มทดลองใช้ สถานะการปลดล็อก บันทึกเหตุการณ์การเชื่อมต่อ (ไม่มีสิ่งที่คุณพิมพ์) และกุญแจเข้ารหัสที่คำนวณจากรหัสจับคู่ของคอมพิวเตอร์ที่จับคู่ไว้ ข้อมูลนี้อยู่ในมือถือของคุณเท่านั้น และถูกลบเมื่อถอนการติดตั้งแอปหรือล้างข้อมูลแอป</p>
+<p>แอปจำการตั้งค่าของแอป (เช่น ความเร็วตัวชี้) วันที่เริ่มทดลองใช้ สถานะการปลดล็อก บันทึกเหตุการณ์การเชื่อมต่อ (ไม่มีสิ่งที่คุณพิมพ์) และกุญแจเข้ารหัสของคอมพิวเตอร์ที่จับคู่ไว้ ข้อมูลนี้อยู่ในมือถือของคุณเท่านั้น และถูกลบเมื่อถอนการติดตั้งแอปหรือล้างข้อมูลแอป</p>
 
 <h3>สิทธิ์ที่แอปขอ</h3>
 <p><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — เชื่อมต่อกับโปรแกรมช่วยบนคอมพิวเตอร์ภายในเครือข่ายของคุณ<br>
@@ -56,13 +56,13 @@
 <p>The app can be tried free for 7 days; the date of first use is stored on your phone. After that a one-time unlock can be bought through Google Play. Payment is handled entirely by Google; we never see or store your card or payment details. The app only asks Google Play whether this account has bought the unlock. Google's purchase system (Play Billing Library) may collect data about its own operation under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
 <h3>Finger movement and keystrokes</h3>
-<p>Pointer movement, clicks and keys you press are sent over Wi-Fi directly to the <a href="touchpad-wifi.html">helper program</a> you run on your own computer, inside the same network only. Nothing goes through the internet or through any server, ours or anyone else's. Every packet is encrypted (AES-256) and authenticated with a pairing code you enter yourself. Neither the app nor the helper logs what is sent. The app receives the helper's announcements from the same network (the computer's name and the helper's identifier) in order to find your computer.</p>
+<p>Pointer movement, clicks and keys you press are sent over Wi-Fi directly to the <a href="touchpad-wifi.html">helper program</a> you run on your own computer, inside the same network only. Nothing goes through the internet or through any server, ours or anyone else's. Every packet is encrypted (AES-256) and authenticated with a key created when you pair (you approve the pairing on the computer yourself, or enter a pairing code when using an older helper version). Neither the app nor the helper logs what is sent. The app receives the helper's announcements from the same network (the computer's name and the helper's identifier) in order to find your computer. During pairing the app sends your phone's model name (for example "Pixel 8") to the helper so that the computer can show which phone is asking to connect; the helper keeps that model name on your computer together with the key.</p>
 
 <h3>Text typed with your phone keyboard</h3>
 <p>When you type into the app's text box with your phone's keyboard, the app turns the text into key presses and sends them to your paired computer only. The text is not stored; the box is cleared when you press Enter or hide the keyboard. The app does not use the microphone. If you use your keyboard app's own microphone key, audio is handled by that keyboard app under its provider's policy.</p>
 
 <h3>Data stored on your device</h3>
-<p>The app remembers its own settings (such as pointer speed), the trial start date, whether it is unlocked, a log of connection events (never what you type) and the encryption key derived from the pairing code of your paired computer. This stays on your phone only and is removed when you uninstall the app or clear its data.</p>
+<p>The app remembers its own settings (such as pointer speed), the trial start date, whether it is unlocked, a log of connection events (never what you type) and the encryption key for your paired computer. This stays on your phone only and is removed when you uninstall the app or clear its data.</p>
 
 <h3>Permissions</h3>
 <p><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> — connect to the helper program on your computer inside your own network.<br>
